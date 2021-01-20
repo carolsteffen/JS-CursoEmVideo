@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(2, 67, 105, 0.945);
+    font: oblique 30px roboto;
+}
+header {
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+section { 
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+section div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+section #resultado{
+    padding-left: 2rem;
+}
+
+section #resultado select{
+    height: 5rem;
+    width: 10rem;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    color: white;
+}

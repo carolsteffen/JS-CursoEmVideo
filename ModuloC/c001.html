@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: rosybrown;
+            color: royalblue;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiros passos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Apredendo a user o <strong>DOM</strong> em JS.</p>
+    <div id="msg">Clique em mim</div>
+    <!-- Dom - Document Object Model é um modelo de objeto para documentos, objetos dentro 
+    do navegador, não funciona no NODE. Árvore DOM, começa da raiz (window, que tem outros obj
+location, document, history, etc. Outro obj, o HTML (PARENT), dentro dele é head e body (CHILD).
+Dentro do head, temos met, title, etc. E body, h1, p, div, e dentro do p, temos um strong.
+    Pode acessar os métodos por: Marca, ID, Nome, Classe ou Seletor -->
+    <!-- MARCA - getElementByTagName(), é possível pegar mais de um objeto -->
+
+    <script>
+        // window.document.write(window.navigator.appName);
+        var p1 = window.document.getElementsByTagName('p')[1];
+        // window.document.write('Está escrito: ' + p1.innerText);
+        p1.style.color = 'blue';
+        document.write(p1.innerHTML);
+        // o comando acima pega a formação, enquanto o inner text não.
+        
+        //ID - getElementsById() [] (colchetes é utilizado para indicar a posição do vetor)
+        var d = window.document.getElementById('msg');
+        d.style.background = 'black';
+        d.innerText = 'Estou aguardando...';
+        // Nome - getElementsByName () [] - getElementsByName (msg) [0]
+        // Classes - getElementsByClassName ('div.msg') [] - getElementsByClassesName (plural)
+        //Seletor - querySelector() ou querySelectorAll()
+        // var de = window.document. querySelector('div#msg')
+        // div# e class.
+
+    </script>
+</body>
+</html>

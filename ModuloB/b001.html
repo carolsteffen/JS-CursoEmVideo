@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First program</title>
+
+    <style>
+        body{
+            background-color: rosybrown;
+            color: indigo;
+            font: normal 20pt arial;
+        }
+        h1{
+            color: royalblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello, world!</h1>
+    <p>Welcome!</p>
+    <script>
+        var nome = window.prompt("Qual o seu nome?");
+        window.alert("O nome inserido: " + nome);
+
+        var value = Number.parseInt(window.prompt("Insira um valor:"));
+        var value1 = Number.parseInt(window.prompt("Insira um valor:"));
+        //pode-se usar só number(n), que o js vai decidir se é int ou float
+        // de número para string pode usar string(n) ou n.toString(n)
+        // ${s}` é um template string, por exemplo, "a nota do aluno é ${s}"
+        //s.length
+        //s.toUpperCase() ou s.toLowerCase
+        var s = value + value1;
+        window.alert("A soma é: " + s);
+
+    </script>
+</body>
+</html>

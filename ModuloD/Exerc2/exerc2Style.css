@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(163, 150, 179);
+    font: oblique 30px roboto;
+}
+header {
+    color: white;
+    text-align: center;
+}
+
+section { 
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    align-items: center;
+}
+
+section div {
+    align-items: center;
+    margin: 2rem 2rem;
+    box-shadow: black;
+}
+
+section div img{
+    align-self: center;
+    margin: 1rem 6rem;
+    margin-bottom: -1rem;
+}
+
+section img{
+    width: 14rem;
+    height: 15rem;
+    border-radius: 10%;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    color: white;
+}

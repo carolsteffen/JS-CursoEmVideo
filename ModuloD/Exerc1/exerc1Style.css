@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(187, 123, 123);
+    font: oblique 30px roboto;
+}
+header {
+    color: white;
+    text-align: center;
+}
+
+section { 
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    align-items: center;
+}
+
+section div {
+    text-align: center;
+    padding: 8px;
+}
+
+
+
+section #imagem img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    color: white;
+}

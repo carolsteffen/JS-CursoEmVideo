@@ -1,0 +1,66 @@
+body{
+    background-color: #5e2129;
+    font: oblique 25px verdana;
+}
+header {
+    color: white;
+    text-align: center;
+}
+
+section { 
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+
+    color: #4b1a21;
+}
+
+section p{ 
+    display: flex;
+    justify-content: center;
+}
+
+section div#num {
+    display: flex;
+    justify-content: center;
+}
+
+section div#num span{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+section #list {
+    display: flex;
+    justify-content: center;
+}
+
+section #list select{
+    width: 15rem;
+}
+
+section #final{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+section #final input{
+    margin-top: 2rem;
+    width: 15rem;
+}
+
+#res p{
+    font-size: 15px;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    color: white;
+}

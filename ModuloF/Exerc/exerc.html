@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Visual array</h1>
+    </header>
+    <section>
+        <p>Números de 0 à 100</p>
+
+        <div id="num">
+            <span><input type="number" name="numbero" id="numbero">
+            <input type="button" id="inserir" value="Inserir" onclick="inserir()"></span>
+        </div>
+
+        <div id="list">
+            <select name="list" id="listing" size="6"></select>
+        </div>
+
+        <div id="final">
+            <input type="button"value="Finalizar" onclick="finalizar()">
+        </div>
+
+        <div id="res">
+        </div>
+    </section>
+    <footer>
+           <p>&copy; Caroline Steffen.</p> 
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

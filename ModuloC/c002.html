@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div#area{
+            font: oblique 20px arial;
+            background-color: crimson;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+    <!-- Events (events reference no site MDN da mozilla)
+    mouseenter - entrou na div
+    mousemove - mouve-se dentro da div
+    mousedown - clicou e segurou 
+    mouseup - depois que clicou e segurou 
+    click - apenas clicou rapidamente
+    mouseout - moveu-se para fora da div -->
+
+    <!-- Funções 
+        function {
+            função sem nome, funcação anônima
+        } 
+    os nomes das função são nomes de eventos -->
+</head>
+<body>
+      <!-- <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" >Interaja</div> -->
+      <div id="area">Interaja!</div>
+
+    <script>
+        var area = document.getElementById('area');
+
+        area.addEventListener('click', clicar);
+        area.addEventListener('mouseenter', entrar);
+        area.addEventListener('mouseout', sair);
+
+        function clicar(){
+            area.innerText = "Clicou!";
+            area.style.background = 'purple';
+        }
+
+        function entrar(){
+            area.innerText = "Entrou!";
+            area.style.background = 'blue';
+        }
+
+        function sair()
+        {
+            area.style.background = 'purple';
+            area.innerText = "Saiu!";
+            area.style.background = 'orange';
+        }
+
+    </script>
+</body>
+</html>
